@@ -304,3 +304,4 @@ Questo progetto utilizza **API pubbliche e gratuite**. Per dettagli sulla licenz
 
 Per domande o suggerimenti sul codice, consulta i commenti JSDoc all'interno dei file TypeScript.
 # DemoAppMeteo
+# DemoAppMeteo
