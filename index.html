@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo App Meteo</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="weather-card neumorphism">
+        <div class="weather-header">
+          <h1>WeatherPredictions</h1>
+          <p>Inserisci una città per conoscere il meteo attuale e il forecast.</p>
+        </div>
+        <div class="search-row">
+          <input id="cityInput" type="text" placeholder="Es. Milano" aria-label="Città" />
+          <button id="searchButton" type="button">Cerca</button>
+        </div>
+        <div id="statusMessage" class="status-message"></div>
+        <section id="weatherResult" class="weather-result hidden"></section>
+      </section>
+    </main>
+    <script type="module" src="src/main.ts"></script>
+  </body>
+</html>
